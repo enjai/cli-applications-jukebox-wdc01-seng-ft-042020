@@ -19,5 +19,5 @@ def help
   puts "- exit : exits this program"
 end 
 
-binding.pry
+#binding.pry
 
