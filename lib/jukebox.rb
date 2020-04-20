@@ -22,7 +22,7 @@ end
 def list(songs)
   i = 0 
   while 0 < songs.length do 
-    puts #{i+1. songs[i]}
+    puts #{songs[i]}
     i +=1 
   end
 end
