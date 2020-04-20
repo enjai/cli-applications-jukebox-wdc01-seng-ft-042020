@@ -21,11 +21,15 @@ songs = [
 ]
 
 def help 
+  input = gets.strip 
+  if input.to_s = "help"
+    
   puts "I accept the following commands:"
   puts "- help : display this help message"
   puts "- list: displays a list of songs you can play"
   puts "- lets you choose a song to play"
   puts "- exits this program"
 end
+end 
   
 
