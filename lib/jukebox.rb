@@ -25,8 +25,11 @@ def list(songs)
    # puts "#{i+1}. #{songs[i]}"
     #i +=1 
   #end
+  
 songs.each_with_index do |index, songs|
-  puts "#{index+1}. songs" 
+  puts "#{index+1}. #{songs}"
+end
+
 
 end
 
