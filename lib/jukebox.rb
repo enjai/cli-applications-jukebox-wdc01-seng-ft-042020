@@ -31,6 +31,12 @@ songs.each_with_index do |index, songs|
 end
 end
 
+def play(songs)
+  valid_input = list 
+  puts "Please enter a song name or number"
+  input = gets.strip 
+  if input.include( ) 
+    puts "Playing "
   
-#binding.pry
+  
 
