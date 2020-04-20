@@ -17,7 +17,6 @@ def helphelp
   puts "- list: displays a list of songs you can play"
   puts "- lets you choose a song to play"
   puts "- exits this program"
-  end
 end 
 
 binding.pry
