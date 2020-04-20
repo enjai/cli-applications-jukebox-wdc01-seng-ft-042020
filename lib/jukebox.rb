@@ -31,10 +31,10 @@ def help
   end
 end 
 
-def list(songs)
+def list(array)
   i = 0 
-  while i < songs.length do 
-    puts "#{i+1} songs[i]"
+  while i < array.length do 
+    puts "#{i+1}. array[i]"
     i += 1 
   end
 end
