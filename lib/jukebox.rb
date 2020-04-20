@@ -19,5 +19,13 @@ def help
   puts "- exit : exits this program"
 end 
 
+def list(songs)
+  i = 0 
+  while 0 < songs.length do 
+    puts #{i+1. songs[i]}
+  end
+end
+
+  
 #binding.pry
 
