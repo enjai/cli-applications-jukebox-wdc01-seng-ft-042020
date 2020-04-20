@@ -33,7 +33,7 @@ end
 
 def list(songs)
   i = 0 
-  while i < array.length do 
+  while i < songs.length do 
     puts "#{i+1} songs[i]"
     i += 1 
   end
