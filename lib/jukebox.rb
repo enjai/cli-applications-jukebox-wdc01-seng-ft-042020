@@ -11,7 +11,7 @@ songs = [
   "Harry Chapin - Cats in the Cradle",
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
-def help 
+def helphelp
   input = gets.strip 
   if input.to_s == "help"
   puts "I accept the following commands:"
