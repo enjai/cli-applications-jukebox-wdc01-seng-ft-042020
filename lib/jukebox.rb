@@ -38,7 +38,7 @@ def play(songs)
    if input == index 
      puts "Playing #{songs[index - 1]}"
    elsif input == song
-    puts "Playing #{songs[index]}"
+    puts "Playing #{song[index]}"
   else
     puts "Invalid input, please try again"
   end
