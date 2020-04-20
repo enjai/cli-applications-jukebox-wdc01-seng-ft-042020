@@ -31,6 +31,8 @@ songs.each_with_index do |songs, index|
 end
 end
 
+list(songs)
+
 def play(songs)
   puts "Please enter a song name or number:"
   input = gets.downcase.chomp 
