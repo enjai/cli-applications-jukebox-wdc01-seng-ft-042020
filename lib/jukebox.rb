@@ -20,11 +20,14 @@ def help
 end 
 
 def list(songs)
-  i = 0 
-  while i < songs.length do 
-    puts "#{i+1}. #{songs[i]}"
-    i +=1 
-  end
+ # i = 0 
+  #while i < songs.length do 
+   # puts "#{i+1}. #{songs[i]}"
+    #i +=1 
+  #end
+songs.each_with_index do |index, songs|
+  puts #{index+1}. songs 
+
 end
 
   
