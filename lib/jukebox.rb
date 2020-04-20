@@ -26,7 +26,7 @@ def list(songs)
     #i +=1 
   #end
   
-songs.each_with_index do |index, songs|
+songs.each_with_index do |songs, index|
   puts "#{index+1}. #{songs}"
 end
 end
