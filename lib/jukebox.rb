@@ -1,6 +1,6 @@
 # Add your code here
 def say_hello(name)
-  "Hi #{name}"
+  "Hi #{name}!"
 end
 
 puts "Enter your name:"
