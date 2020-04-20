@@ -66,5 +66,5 @@ def run
     do play 
   elsif input.to_s == "exit"
     do exit 
-    
+     
   
