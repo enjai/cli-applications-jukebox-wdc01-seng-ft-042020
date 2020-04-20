@@ -30,5 +30,13 @@ def help
   puts "- exits this program"
   end
 end 
+
+def list(songs)
+  i = 0 
+  while i < array.length do 
+    puts "#{i+1} songs[i]"
+    i += 1 
+  end
+end
   
 
